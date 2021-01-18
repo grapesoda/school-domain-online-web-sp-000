@@ -1,6 +1,6 @@
 # code here!
 
-<<<<<<< HEAD
+
   
 class School
   
@@ -31,7 +31,7 @@ class School
   end
   
 end
-=======
+
 def School
   
   attr_reader :
@@ -69,4 +69,4 @@ def School
 end
   
 end 
->>>>>>> 672562aaef8ab90f0688e750a0bb65a99f47d30f
+
