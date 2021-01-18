@@ -1,5 +1,6 @@
 # code here!
 
+<<<<<<< HEAD
   
 class School
   
@@ -30,3 +31,42 @@ class School
   end
   
 end
+=======
+def School
+  
+  attr_reader :
+  attr_writer :student, :class, :grade
+  
+  STUDENTS
+  
+  def initialize(student)
+    
+    
+     
+  end 
+  
+  
+  
+  class Book
+  attr_accessor :author, :page_count 
+  attr_reader :title, :genre
+
+  GENRES = []
+
+  def initialize(title)
+    @title = title
+  end
+
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+  end
+  
+  def genre=(genre)
+    @genre = genre
+    GENRES << genre 
+  end
+
+end
+  
+end 
+>>>>>>> 672562aaef8ab90f0688e750a0bb65a99f47d30f
